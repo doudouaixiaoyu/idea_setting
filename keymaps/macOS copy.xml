@@ -2,17 +2,124 @@
   <action id="ChangesView.Move">
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+  </action>
+  <action id="Console.TableResult.NavigateAction">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Console.TableResult.SetDefault">
+    <keyboard-shortcut first-keystroke="shift ctrl meta d" />
+  </action>
+  <action id="DSM.OpenInEditor">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Debugger.EditFrameSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Diff.ApplyLeftSide">
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
+  </action>
+  <action id="Diff.ApplyRightSide">
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+  </action>
+  <action id="DomCollectionControl.Edit">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="EditorLookupDown">
+    <keyboard-shortcut first-keystroke="shift ctrl meta down" />
+  </action>
+  <action id="EditorLookupUp">
+    <keyboard-shortcut first-keystroke="shift ctrl meta up" />
+  </action>
+  <action id="ExternalSystem.OpenConfig">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift alt a" />
+  </action>
+  <action id="Graph.Faces.OpenSelectedPages">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Jdbc.OpenEditor">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="NavBar-navigate">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="shift ctrl meta right" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+  </action>
+  <action id="OpenModuleSettings">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="PreviousEditorTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta left" />
+  </action>
+  <action id="ProjectViewEditSource">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
+  <action id="RemoteHostView.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="ServiceView.JumpToServices">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+  <action id="ShowContent" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
   <action id="ShowRegistry">
     <keyboard-shortcut first-keystroke="shift ctrl meta slash" />
   </action>
+  <action id="Sql.EditParameter">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="Vcs.MoveChangedLinesToChangelist">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
 </keymap>
